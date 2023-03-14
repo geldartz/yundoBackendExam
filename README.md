@@ -32,7 +32,7 @@ This will create a User table.
 npx sequelize-cli db:migrate
 ```
 
-To have a initial data to the database. Please run this seeder to create a new user with a default password = "password"
+To have an initial data to the database. Please run this seeder to create a new user with a default password = "password"
 ```bash
 npx sequelize-cli db:seed:all
 ```
@@ -48,6 +48,7 @@ For testing please stop running npm dev on port 5001 and run this command.
 npm run test
 ```
 
+Thank you!
 
 ## License
 
