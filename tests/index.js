@@ -72,6 +72,6 @@ describe('User endpoints', () => {
       .delete('/api/users/'+userID)
       .set('Authorization', `Bearer ${token}`)
       .expect(200);
-    expect(response.body.message).to.be.equal("Users has been deleted");
+    expect(response.body.message).to.be.equal("User has been deleted");
   });
 });
