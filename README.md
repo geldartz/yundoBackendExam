@@ -43,6 +43,9 @@ To access all the APIs in this application, please refer to this URL.
 [https://documenter.getpostman.com/view/19670999/2s93JuuNfh](https://documenter.getpostman.com/view/19670999/2s93JuuNfh)
 
 ## Unit Test
+
+Please change the login credentials in before function before running the test.
+
 For testing please stop running npm dev on port 5001 and run this command.
 ```bash
 npm run test
